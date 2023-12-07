@@ -1,0 +1,64 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  /* font-family: , sans-serif;
+font-family: 'Roboto', sans-serif; */
+}
+.container {
+  width: 80%;
+  background: rgb(252, 228, 232);
+  height: auto;
+  margin: 50px;
+  margin: 30px auto;
+  border-radius: 10px;
+  padding: 30px 0px 30px 0px;
+}
+main {
+  width: 50%;
+  display: flex;
+  height: 400px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 10px;
+}
+.section1 {
+  /* width:22%; */
+  height: 430px;
+}
+img {
+  border-radius: 5px 0px 0px 5px;
+}
+.section2 {
+  /* width:33%; */
+  background: #fff;
+  height: 200px;
+  padding: 20px;
+  text-align: justify;
+}
+.discount-price {
+  font-size: 30px;
+  font-weight: bold;
+  color: green;
+}
+.before-price {
+  float: right;
+  font-size: 13px;
+  margin: 10px 50px 10px auto;
+  text-decoration: line-through;
+}
+button {
+  padding: 10px 80px;
+  color: #fff;
+  background: green;
+  border: 1px green;
+  border-radius: 4px;
+}
+.fa-cart-shopping{
+  margin-right:6px;
+}
+.details {
+  text-align: center;
+  color: green;
+}
+a {
+  text-decoration: none;
+}
