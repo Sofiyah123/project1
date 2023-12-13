@@ -1,8 +1,42 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+}
 body {
   background-color: hsl(30, 38%, 92%);
   width: 100%;
   height: 100vh;
 }
-main {            
+* {
+  box-sizing: border-box;
+}
+main {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50rem;
+  height: 50rem;
+  background-color: hsl(26.25deg 42.11% 92.55%);
+  margin: auto;
+}
+.section-one {
+  width: 20rem;
+  height: 30rem;
+
+  /* background-color: hsl(0deg 0% 99.8%);; */
+}
+.section-one img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 0px 0px 5px;
+}
+.section-two {
+  padding: 20rem;
+  width: 20rem;
+  height: 30rem;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 0px 5px 5px 0px;
 }
